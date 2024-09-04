@@ -42,14 +42,16 @@
 
 개별 컨트롤러 클래스는 핸들러(Handler)라고도 하며, DI를 통해 생성해둔 Bean을 통해 비지니스 로직 처리 결과를 Model에 담아 다시 프론트 컨트롤러로 보낸다. 프론트 컨트롤러는 받은 Model을 알맞은 View 템플릿으로 전달하여 반영시키고, 최종적으로 클라이언트로 보낼 화면을 응답결과로 전송한다.
 
-![img1.daumcdn.png](..%2F..%2F..%2FUsers%2Freviv%2FDownloads%2Fimg1.daumcdn.png)
+![blr7x6q](https://github.com/user-attachments/assets/8216bd25-6273-4ff6-97a4-9848ec77d715)
+
 ## Filter
 
 필터는 요청이 DispatcherServlet에 의해 다뤄지기 전, 후에 작동된다.
 
 필터는 주로 요청에 대한 인증, 권한 체크 등을 하는데 쓰인다.  들어온 요청이 DispatcherServlet에 전달되기 전에 헤더를 검사해 인증 토큰이 있는지 없는지, 올바른지 아닌지 검사한다.
 
-![blr7x6q.png](..%2F..%2F..%2FUsers%2Freviv%2FDownloads%2Fblr7x6q.png)
+![blr7x6q](https://github.com/user-attachments/assets/8216bd25-6273-4ff6-97a4-9848ec77d715)
+
 ## DispatcherServlet
 
 - 가장 앞 단에서 클라이언트의 요청을 처리하는 Controller로 요청부터 응답까지 전반적인 처리과정을 통제한다.

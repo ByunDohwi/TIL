@@ -42,7 +42,7 @@
 
 개별 컨트롤러 클래스는 핸들러(Handler)라고도 하며, DI를 통해 생성해둔 Bean을 통해 비지니스 로직 처리 결과를 Model에 담아 다시 프론트 컨트롤러로 보낸다. 프론트 컨트롤러는 받은 Model을 알맞은 View 템플릿으로 전달하여 반영시키고, 최종적으로 클라이언트로 보낼 화면을 응답결과로 전송한다.
 
-![blr7x6q](https://github.com/user-attachments/assets/8216bd25-6273-4ff6-97a4-9848ec77d715)
+![img1 daumcdn](https://github.com/user-attachments/assets/81f2bed9-47bf-4041-895c-b3e1fd8e3cf5)
 
 ## Filter
 

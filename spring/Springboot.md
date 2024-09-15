@@ -12,7 +12,7 @@
 
 클라이언트와 서버는 다음과 같은 관계를 가진다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/574635be-ea92-434f-9c73-7157711dd191/cc0f1ce7-e5e4-444a-9733-3c910716e63a/Untitled.png)
+![Untitled](https://github.com/user-attachments/assets/4c8cd92f-20ed-44a7-9cb6-fab919299950)
 
 브라우저에서 서버로 요청을 보낼 때는 서버의 주소나 서버의 주소를 대체할 수 있는 도메인명을 알아야 한다. 주소 창에 도메인을 입력하면 웹 서버가 호출되고 서버는 요청에 대한 응답으로 HTML문서나 다른 리소스들을 브라우저에 표시한다.
 
@@ -20,7 +20,7 @@
 
 서버는 웹 서비스뿐만 아니라 FTP, 이메일 서비스 등도 운용할 수 있다. 이땐 같은 IP를 사용하고 포트로 서비스를 구분한다. 아래는 대표적인 서비스의 종류이다.
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/574635be-ea92-434f-9c73-7157711dd191/d02663e2-a4c7-404f-9bd8-462910261ff6/Untitled.png)
+![Untitled 2png](https://github.com/user-attachments/assets/451aa4a8-ff40-4815-8543-1e2c93ed5630)
 
 > 위는 기본 포트번호이다. 클라이언트나 서버등 대부분 이 번호를 기본값으로 설정한다. 하지만 필요에 따라 포트번호를 별도로 정의하고 변경할 수 있다. HTTP의 포트 80대신 8080을 사용할 수 있다.
 >
